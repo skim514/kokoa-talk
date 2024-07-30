@@ -1,0 +1,13 @@
+.status-bar {
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar-left span {
+  margin-right: 5px;
+}
+
+.fa-battery-full {
+  margin-right: 2px;
+}

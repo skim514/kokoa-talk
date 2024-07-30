@@ -6,12 +6,43 @@
     <title>Welcome to Kokoa Talk</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Status bar -->
+    <div class="status-bar">
+      <div class="status-bar-left">
+        <span>Fido</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar-center">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar-right">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Welcome to Kokoa Talk -->
+    <header>
+      <h1>Welcome to Kokoa Talk</h1>
+      <h3>
+        If you have a Kokoa Talk Account, log in with your email or phone
+        number.
+      </h3>
+    </header>
+    <!-- Form -->
+    <main>
+      <form class="login" action="friends.html" method="get">
+        <input required type="text" placeholder="Email or phone number" />
+        <input required type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kokoa Account or Password</a>
+      </form>
+    </main>
+  </body>
 </html>
