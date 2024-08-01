@@ -5,8 +5,11 @@
 @import "nav-bar.css";
 @import "friends.css";
 @import "user-component.css";
+@import "icons.css";
 @import "chats.css";
 @import "find.css";
+@import "more.css";
+@import "settings.css";
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

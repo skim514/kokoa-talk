@@ -47,6 +47,7 @@
 
 .user-component__title--users-name {
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .user-component__subtitle {

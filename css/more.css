@@ -1,0 +1,54 @@
+.more-icons-box-first {
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+.more-icons-box-last {
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
+.fa-exclamation-circle {
+  color: tomato;
+}
+
+.suggestions-box {
+  border-top: var(--common-border);
+  padding-top: 35px;
+}
+
+.suggestions-box h3 {
+  font-size: 20px;
+}
+.suggestions-box__icons {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggestions-box__icon-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestions-box__icon-pic i {
+  width: 70px;
+  height: 70px;
+  background-color: var(--yellow);
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggestions-box__icon-pic span {
+  font-size: 20px;
+  color: #838383;
+}

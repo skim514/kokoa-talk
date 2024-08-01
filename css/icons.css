@@ -1,0 +1,13 @@
+.icons-box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: var(--common-border);
+}
+
+.icons-box div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

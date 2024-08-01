@@ -1,16 +1,3 @@
-.find-icons-box {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-  border-bottom: var(--common-border);
-}
-
-.find-icons-box div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
 .recommended-friend {
   color: #a5a5a5;
   padding-bottom: 150px;

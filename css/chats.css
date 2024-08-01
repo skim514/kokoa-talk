@@ -2,9 +2,10 @@
   color: #b5b5b5;
 }
 
-/* .chats-screen {
+.chats-screen {
   padding: 0px var(--horizontal-space);
-} */
+}
+
 .chat-screen-div-right div {
   width: 30px;
   height: 30px;
