@@ -39,7 +39,6 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: var(--common-border);
-  /* border: 2px solid red; */
 }
 
 .open-chat-rooms__column {
@@ -82,8 +81,7 @@
   color: #ff66c3;
   margin-left: 10px;
 }
-.open-chat-rooms__pic {
-}
+
 .open-chat-rooms__pic img {
   width: 140px;
   height: 140px;

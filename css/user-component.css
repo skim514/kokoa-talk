@@ -27,7 +27,6 @@
 
 .user-component {
   padding: 15px 0px;
-  border: 2px solid red;
 }
 .user-component,
 .user-component__column:first-child {
