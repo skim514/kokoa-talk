@@ -1,0 +1,34 @@
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings-setting__column {
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-setting__column:last-child {
+  color: #818181;
+}
+
+.settings-setting__column i {
+  margin-right: 20px;
+}
+
+.settings-setting__column div {
+  width: 25px;
+  height: 25px;
+  background-color: #ff6129;
+  font-size: 15px;
+  border-radius: 50%;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 10px;
+}

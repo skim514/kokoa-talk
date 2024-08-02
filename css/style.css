@@ -10,6 +10,7 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
+@import "alt-screen-header.css";
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
