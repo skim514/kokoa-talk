@@ -1,3 +1,6 @@
+.settings {
+  padding-top: 90px;
+}
 .settings-setting {
   display: flex;
   justify-content: space-between;

@@ -7,12 +7,19 @@
   width: 100%;
   box-sizing: border-box;
   background-color: white;
+  z-index: 2;
 }
 
-.status-bar-left span {
-  margin-right: 5px;
+.status-bar-column span {
+  margin-left: 5px;
 }
-
-.fa-battery-full {
-  margin-right: 2px;
+.status-bar-column {
+  width: 33%;
+}
+.status-bar-column:nth-child(2) {
+  text-align: center;
+}
+.status-bar-column:last-child {
+  display: flex;
+  justify-content: flex-end;
 }

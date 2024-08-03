@@ -3,8 +3,27 @@
   display: flex;
   justify-content: space-between;
   font-size: 28px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
 }
 
-.alt-screen-header-box__title {
+.alt-screen-header-column {
   font-weight: 600;
+  width: 33%;
+}
+
+.alt-screen-header-column:nth-child(2) {
+  text-align: center;
+}
+.alt-screen-header-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-screen-header-column:last-child span {
+  margin-left: 25px;
 }

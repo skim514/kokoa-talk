@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatting room</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="chat-room-body">
+    <!-- Status bar -->
+    <div class="status-bar chat-room-status-bar">
+      <div class="status-bar-column">
+        <span>Fido</span>
+        <span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div class="status-bar-column">
+        <span>21:23</span>
+      </div>
+      <div class="status-bar-column">
+        <span>100%</span>
+        <span><i class="fas fa-battery-full fa-lg"></i></span>
+        <span><i class="fas fa-bolt"></i></span>
+      </div>
+    </div>
+
+    <header class="alt-screen-header chat-room-alt-screen-header">
+      <div class="alt-screen-header-column">
+        <span
+          ><a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a
+        ></span>
+      </div>
+
+      <div class="alt-screen-header-column">
+        <span>Henry</span>
+      </div>
+
+      <div class="alt-screen-header-column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__time-stamp">Friday, Aug 2, 2024</div>
+
+      <div class="chat__row">
+        <img
+          src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-464163411.jpg?crop=1.0xw:1xh;center,top&resize=980:*"
+        />
+        <div class="chat__row-content">
+          <span class="chat__row-column-author">Henry</span>
+          <div class="chat__row-column-msg">
+            <span class="chat__bubble">Hey! What's up?</span>
+            <span class="chat__time">21:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__row chat__row__own">
+        <div class="chat__row-content">
+          <div class="chat__row-column-msg chat__row_column_own-msg">
+            <span class="chat__bubble chat__bubble__own-msg"
+              >I am doing good! You?</span
+            >
+            <span class="chat__time">22:37</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
