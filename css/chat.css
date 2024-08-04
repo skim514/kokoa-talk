@@ -83,3 +83,78 @@
   border-top-right-radius: 0px;
   background-color: var(--yellow);
 }
+
+.msg-input {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.msg-input__column:first-child {
+  width: 10%;
+}
+
+.msg-input__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.msg-input input {
+  height: 40px;
+  width: 100%;
+  border: var(--common-border);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.msg-input__column:last-child > i,
+.msg-input__column:last-child button {
+  position: absolute;
+  right: 0;
+  top: 13px;
+}
+
+.msg-input__column:last-child > i {
+  right: 40px;
+}
+
+.msg-input__column button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: val(--yellow);
+}
+
+/* .msg-input input::placeholder {
+  padding-left: 10px;
+} */
+
+/* .msg-input__column:last-child button {
+  top: 9px;
+  right: 3px;
+} */
+
+/* .msg-input__column:first-child {
+  width: 10%;
+}
+
+.msg-input__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.msg-input__column input {
+  border-radius: 20px;
+  border: val(--common-border);
+}
+
+.msg-input__column:last-child button {
+  position: absolute;
+} */
